@@ -1,0 +1,26 @@
+name: Make Sarvam voice
+on:
+  push:
+    paths: ["voice-requests/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q sarvamai
+      - name: Generate voices for new requests
+        env:
+          SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+        run: python3 scripts/sarvam_voice.py
+      - name: Commit the audio
+        run: |
+          git config user.name "voice-bot"
+          git config user.email "voice-bot@users.noreply.github.com"
+          git add voice
+          git diff --cached --quiet || (git commit -m "voice: new audio" && git push)
