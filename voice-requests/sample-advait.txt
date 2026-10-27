@@ -1,0 +1,2 @@
+#speaker=advait model=bulbul:v3 pace=1.0
+Sniper जहाँ aim करता है, गोली वहाँ जाती ही नहीं. फिर भी target को लगती है. कैसे? पहला राज़: gravity. गोली गिर रही होती है, और दूर तक जाते जाते कई meter नीचे आ जाती है. 
