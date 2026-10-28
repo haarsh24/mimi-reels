@@ -1,0 +1,8 @@
+#speaker=kabir model=bulbul:v3 pace=1.0
+कभी सोचा है, तुम किसी को message भेजते हो, तो वो कैसे पहुँचता है? बस एक second में.
+पहले तुम्हारा message छोटे छोटे packets में टूटता है, और हर packet पे address लिखा होता है.
+Phone से वो WiFi या tower तक जाता है, फिर routers हर packet को अगले सही रास्ते पे भेजते हैं.
+दूसरे देश जाना हो, तो packets समुंदर के नीचे बिछी fiber cables में रोशनी की तरह दौड़ते हैं.
+App के server पे सब packets वापस सही order में जुड़ जाते हैं, और वहाँ से दोस्त के phone पे, pop!
+मतलब एक छोटा सा message, पूरी दुनिया का सफ़र करता है.
+comment करो INTERNET, और मैं पूरा route भेजूँगा.
