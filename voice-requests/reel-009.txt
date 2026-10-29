@@ -1,0 +1,10 @@
+#speaker=kabir model=bulbul:v3 pace=1.0
+दुनिया में एक machine ऐसी है जो सिर्फ़ कुछ ही companies बना सकती हैं: GE, Rolls-Royce, Pratt & Whitney और Safran. Jet engine.
+इसमें आग lava से भी ज़्यादा गरम होती है, फिर भी इसके metal blade पिघलते नहीं. कैसे?
+हवा दबती है, fuel जलता है, और गरम gas जहाज़ को आगे धकेलती है.
+मगर वो gas लगभग 1600 degree का होता है, और blade का metal 1400 के आसपास ही पिघल जाता है.
+Trick एक: blade अंदर से खोखला है, उसमें कम गरम हवा दौड़ती है, जो छेदों से निकल कर blade पे हवा की चादर बना देती है.
+Trick दो: ऊपर पतली ceramic coating.
+Trick तीन: blade एक ही crystal से बना है, तो उसमें कोई कमज़ोर जोड़ होता ही नहीं.
+इसी लिए ये दुनिया की सबसे मुश्किल machines में से एक है.
+comment करो JET ENGINE, और मैं पूरी detail बहुत simple तरीके से भेजूँगा.
